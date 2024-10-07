@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.main-box{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.form-box{
+	display: flex;
+}
+
+.left, .right{
+	flex-basis: 50%;
+}
+
+.logo img{
+	width: 150px;
+}
+
+.image img{
+	width: 100%;
+	height: auto;
+}
+
+.image{
+	padding: 30px 50px 30px 50px;
+	border-right: 1px solid black;
+}
+
+.right{
+	margin-left: 50px;
+}
+
+.social-icon ul{
+	display: inline-block;
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.social-icon ul li a i{
+	width: 40px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	background: #0099ff;
+	transition: 0.5s;
+}
+
+.social-icon ul li a i:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+    background: #4db8ff;
+}
+
+.social-icon span{
+	font-weight: 600;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.line{
+	height: 2px;
+	width: 100%;
+	background: #b3b3cc;
+	margin: 50px 0px;
+}
+
+.d-block{
+	display: block;
+}
+
+.form-control{
+	padding: 14px 10px;
+	width: 100%;
+}
+
+.form-group{
+	margin-bottom: 30px;
+}
+
+input[placeholder]{
+	letter-spacing: 2px;
+}
+
+input:focus{
+	outline: none;
+}
+
+.form label{
+	margin-bottom: 4px;
+}
+
+.mt{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.mt-15{
+	background: #6071f2;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mt-15:hover{
+	background: #2c3579;
+	cursor: pointer;
+}
+
+.mt-16{
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/*
+font-family: "Open Sans", sans-serif;
+*/

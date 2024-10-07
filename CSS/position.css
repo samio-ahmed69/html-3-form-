@@ -1,0 +1,44 @@
+.box{
+	height: 400px;
+	width: 750px;
+	background: #006a4eff;
+	margin: 100px auto;
+	position: relative;
+}
+
+.circle{
+	height: 200px;
+	width: 200px;
+	background: #f42a41ff;
+	border-radius: 100%;
+	position: absolute;
+	top: 100px;
+	left: 250px;
+}
+
+.name{
+	font-family: "Edu AU VIC WA NT Dots", cursive;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bolder;
+	color: #006a4eff;
+}
+
+.box-1{
+	height: 200px;
+	width: 425px;
+	background: #ADFF2F;
+	margin: 100px auto;
+	position: relative;
+	border-radius: 6px;
+}
+
+.mini-box{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background: #ADFF2F;
+	bottom: -25px;
+	left: 60px;
+	transform: rotate(45deg);
+}
